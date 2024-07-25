@@ -1,0 +1,27 @@
+{
+  "name": "@nuitral/types",
+  "version": "0.0.0",
+  "description": "Type definitions for Nuitral components",
+  "files": [
+    "./dist"
+  ],
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/cjs/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && npm run build:commonjs && npm run build:esm",
+    "build:commonjs": "tsc",
+    "build:esm": "tsc --project tsconfig.esm.json"
+  },
+  "keywords": [
+    "typescript",
+    "types",
+    "nuitral"
+  ],
+  "author": "Nicola Centonze",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.3"
+  }
+}
