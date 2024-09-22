@@ -5,7 +5,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "description": "Type definitions for Nuitral components",
+  "description": "Type definitions for nuitral components",
   "files": [
     "./dist"
   ],
