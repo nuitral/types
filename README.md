@@ -13,6 +13,4 @@ Check out the official [nuitral](https://nuitral.github.io) suite page.
 
 This project is licensed under the [MIT License](https://github.com/nuitral/theming/blob/main/LICENSE).
 
-
 Copyright (c) 2024 Nicola Centonze
- 
