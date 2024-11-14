@@ -1,4 +1,4 @@
-import { NuitralClass, NuitralIconPosition } from '../shared';
+import { NuitralClass, NuitralIconPosition } from '../shared'
 
 /**
  * Defines the standard type for button actions, which can be:

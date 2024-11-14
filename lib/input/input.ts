@@ -1,4 +1,4 @@
-import { NuitralClass, NuitralIconPosition } from '../shared';
+import { NuitralClass, NuitralIconPosition } from '../shared'
 
 /**
  * Defines the possible types for an input element.
@@ -21,9 +21,9 @@ export type NuitralInputType = 'text' | 'number' | 'password'
  * - `classes` (optional): Custom CSS classes to be applied to the input. Can be a single class name as a string or an array of class names.
  */
 export interface NuitralInputProps {
-  type?: NuitralInputType
-  placeholder?: string
-  iconPosition?: NuitralIconPosition
-  disabled?: boolean
-  classes?: NuitralClass
+	type?: NuitralInputType
+	placeholder?: string
+	iconPosition?: NuitralIconPosition
+	disabled?: boolean
+	classes?: NuitralClass
 }
